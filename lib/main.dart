@@ -5,9 +5,9 @@ void main() {
   return runApp(
     MaterialApp(
         home: Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.red.shade900,
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.red.shade900,
         title: Text(
           'Dicee',
           textAlign: TextAlign.center,
